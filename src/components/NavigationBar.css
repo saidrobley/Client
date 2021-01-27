@@ -1,0 +1,36 @@
+.nav-link {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.nav-link:hover {
+  /* color: white !important; */
+}
+@media (max-width: 991px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    width: 100%;
+  }
+  .navbar .navbar-nav a {
+    margin: 0;
+  }
+  .navbar .navbar-nav a:first-child {
+    margin-top: 1rem;
+  }
+  .nav-link {
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+  .nav-link:first-child {
+    border-top: 1px solid gray;
+  }
+  .nav-link:hover {
+    /* background-color: rgb(55, 55, 61); */
+    color: white !important;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
